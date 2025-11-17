@@ -1,0 +1,18 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+/* Default Light Theme */
+body {
+  background: white;
+  color: black;
+}
+
+/* Auto Dark Mode if system theme = dark */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: black;
+    color: white;
+  }
+}
